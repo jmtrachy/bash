@@ -1,0 +1,11 @@
+alias sfcNew='$HOME/py-scripts/sfc-pull-branch.py'
+
+# CL Util aliases
+alias cl-list='py $HOME/dev/fi/cl-util/cl-list.py -s $HOME/dev/fi/cl-util/security.properties'
+alias cl-create='py $HOME/dev/fi/cl-util/cl-create.py -s $HOME/dev/fi/cl-util/security.properties -f $HOME/dev/fi/cl-util/create_instance.json'
+alias cl-start='py $HOME/dev/fi/cl-util/cl-start.py -s $HOME/dev/fi/cl-util/security.properties -i'
+alias cl-stop='py $HOME/dev/fi/cl-util/cl-stop.py -s $HOME/dev/fi/cl-util/security.properties -i'
+alias cl-terminate='py $HOME/dev/fi/cl-util/cl-terminate.py -s $HOME/dev/fi/cl-util/security.properties -i'
+
+# Alias for AWS instance
+alias ssh_aws='ssh -i ~/dev/personal/keypairs/PYKeypair.pem'

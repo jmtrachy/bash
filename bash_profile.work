@@ -1,0 +1,26 @@
+
+# Setting PATH for Python 3.4
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:/Users/jamest/dev/SFConnector/utilities/apache-ant-1.9.4/bin:${PATH}"
+export PATH=/Users/jamest/dev/java/gradle-2.8/bin:/usr/local/bin:/usr/local/sbin:$PATH
+export SVN_EDITOR=vi
+alias wt="py /Users/jamest/dev/SFConnector/utilities/webtest-py/webtest.py -f"
+alias cddj="cd /Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/django"
+alias cdv="cd ~/dev/vagrant_test/hello_world"
+alias cdmp="cd ~/dev/SFConnector/code/managed-package"
+alias ls='ls -G'
+
+
+
+dockerFunction() {
+    eval "$(docker-machine env $1)"
+}
+
+alias ds=dockerFunction
+
+# Setting PATH for Python 3.4
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
+export PATH
+
+. ~/.bashrc
